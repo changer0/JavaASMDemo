@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ASMJava {
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         ClassReader cr = new ClassReader(TestClass.class.getName());
         ClassWriter cw = new ClassWriter(cr, ClassWriter.COMPUTE_MAXS);
         ClassVisitor cv = new TestClassVisitor(cw);
