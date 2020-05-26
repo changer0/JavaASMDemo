@@ -5,6 +5,6 @@ import org.objectweb.asm.commons.AdviceAdapter;
 public class TestMethodVisitor extends AdviceAdapter {
 
     protected TestMethodVisitor(MethodVisitor mv, int access, String name, String desc) {
-        super(Opcodes.ASM4, mv, access, name, desc);
+        super(Opcodes.ASM5, mv, access, name, desc);
     }
 }
