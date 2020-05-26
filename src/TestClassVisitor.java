@@ -6,6 +6,7 @@ import org.objectweb.asm.Opcodes;
  * 自定义一个 ClassVisitor
  */
 public class TestClassVisitor extends ClassVisitor {
+    private String mClassName;
 
     public TestClassVisitor(ClassVisitor classVisitor) {
         super(Opcodes.ASM5, classVisitor);
@@ -14,6 +15,8 @@ public class TestClassVisitor extends ClassVisitor {
     @Override
     public void visit(int version, int access, String name, String signature, String superName, String[] interfaces) {
         super.visit(version, access, name, signature, superName, interfaces);
+        mClassName = name;
+        System.out.println(mClassName + " visit");
     }
 
     @Override
@@ -34,4 +37,9 @@ public class TestClassVisitor extends ClassVisitor {
         return mv;
     }
 
+    @Override
+    public void visitEnd() {
+        super.visitEnd();
+        System.out.println(mClassName + " visitEnd");
+    }
 }
