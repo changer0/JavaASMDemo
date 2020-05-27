@@ -23,14 +23,24 @@ public class TestClassVisitor extends ClassVisitor {
     public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
         MethodVisitor mv = cv.visitMethod(access, name, desc, signature, exceptions);
         System.out.println("正在查找的方法：" + name);
-        if ("newFun".equals(name)) {
+        if ("insertFun".equals(name)) {
             mv = new TestMethodVisitor(mv, access, name, desc) {
+                @Override
+                protected void onMethodEnter() {
+                    super.onMethodEnter();
+                    mv.visitVarInsn(ALOAD, 0);
+                    mv.visitVarInsn(ILOAD, 1);
+                    mv.visitMethodInsn(INVOKESTATIC, "CallBackHelper", "before", "(LTestClass;I)V", false);
+                    System.out.println("完成对 " + name + "方法进入时插入");
+                }
+
                 @Override
                 protected void onMethodExit(int opcode) {
                     super.onMethodExit(opcode);
-                    mv.visitFieldInsn(GETSTATIC, "java/lang/System", "out", "Ljava/io/PrintStream;");
-                    mv.visitLdcInsn("after insert");
-                    mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+                    mv.visitVarInsn(ALOAD, 0);
+                    mv.visitVarInsn(ILOAD, 1);
+                    mv.visitMethodInsn(INVOKESTATIC, "CallBackHelper", "after", "(LTestClass;I)V", false);
+                    System.out.println("完成对 " + name + "方法结束时插入");
                 }
             };
         }
