@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ba63d1-3aa7-423d-a1b8-fdc1045b2cf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,27 +17,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
-          <entry key="java" value="21" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="22" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="21" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="22" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="439" />
+          <entry key="java" value="580" />
           <entry key="txt" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="439" />
+          <entry key="JAVA" value="580" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="1" />
         </counts>
@@ -53,17 +54,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
                 <element signature="e#69#70#0" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#199#200#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestClass2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -99,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/TestClassVisitor.java" />
         <option value="$PROJECT_DIR$/src/TestMethodVisitor.java" />
         <option value="$PROJECT_DIR$/src/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/TestClass2.java" />
       </list>
     </option>
   </component>
@@ -193,7 +204,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591154809549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591155064478" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,12 +214,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\ASProject\JavaASMDemo\out" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ASProject\JavaASMDemo\.idea" />
       <recent name="C:\ASProject\JavaASMDemo\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ASProject\JavaASMDemo\out" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,7 +275,7 @@
       <updated>1590483659045</updated>
       <workItem from="1590483661411" duration="4576000" />
       <workItem from="1590547499603" duration="8824000" />
-      <workItem from="1591154289078" duration="413000" />
+      <workItem from="1591154289078" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="fixed 导包问题">
       <created>1590501522713</created>
@@ -305,17 +319,23 @@
       <option name="project" value="LOCAL" />
       <updated>1591154394779</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1591154859754</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591154859754</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16839000" />
+    <option name="totallyTimeSpent" value="17509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2553" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19111776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19111776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,7 +349,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.22187823" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.44685242" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.4375645" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -338,7 +358,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.28592813" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="ASM" order="4" visible="true" weight="0.23153692" />
+      <window_info anchor="right" id="ASM" order="4" visible="true" weight="0.5199601" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -384,46 +404,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="598" y="110" key="CommitChangelistDialog2" timestamp="1590501553533">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="598" y="110" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590501553533" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1590501483895">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590501483895" />
-    <state width="938" height="248" key="GridCell.Tab.0.bottom" timestamp="1590505956803">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590505956803" />
-    <state width="938" height="248" key="GridCell.Tab.0.center" timestamp="1590505956803">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="248" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590505956803" />
-    <state width="938" height="248" key="GridCell.Tab.0.left" timestamp="1590505956803">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="248" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590505956803" />
-    <state width="938" height="248" key="GridCell.Tab.0.right" timestamp="1590505956803">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="248" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590505956803" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1590505954306">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590505954306" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590501557863">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590501557863" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590500536504">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590500536504" />
-    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590501296199">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1590501296199" />
+    <state x="598" y="110" key="CommitChangelistDialog2" />
+    <state x="598" y="110" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state width="938" height="248" key="GridCell.Tab.0.bottom" />
+    <state width="938" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state width="938" height="248" key="GridCell.Tab.0.center" />
+    <state width="938" height="248" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state width="938" height="248" key="GridCell.Tab.0.left" />
+    <state width="938" height="248" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state width="938" height="248" key="GridCell.Tab.0.right" />
+    <state width="938" height="248" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state x="440" y="94" key="SettingsEditor" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" />
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,13 +559,20 @@
     <entry file="file://$PROJECT_DIR$/src/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="e#69#70#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
