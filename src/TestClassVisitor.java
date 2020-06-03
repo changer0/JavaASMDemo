@@ -21,10 +21,10 @@ public class TestClassVisitor extends ClassVisitor {
 
     @Override
     public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
-        MethodVisitor mv = cv.visitMethod(access, name, desc, signature, exceptions);
+        MethodVisitor methodVisitor = cv.visitMethod(access, name, desc, signature, exceptions);
         System.out.println("正在查找的方法：" + name);
         if ("insertFun".equals(name)) {
-            mv = new TestMethodVisitor(mv, access, name, desc) {
+            methodVisitor = new TestMethodVisitor(methodVisitor, access, name, desc) {
                 @Override
                 protected void onMethodEnter() {
                     super.onMethodEnter();
@@ -44,7 +44,7 @@ public class TestClassVisitor extends ClassVisitor {
                 }
             };
         }
-        return mv;
+        return methodVisitor;
     }
 
     @Override
